@@ -22,7 +22,7 @@
       <h1 class="text-3xl mt-4 mb-2 font-bold text-white">Nome da empresa</h1>
       <span class="font-medium text-white">Rua dev 10, Sao Jose dos Campos - SP</span>
       <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
-        <span class="text-white font-medium">Seg a Dom - 09:00 as 17:00</span>
+        <span class="text-white font-medium">Seg a Sex - 09:00 as 17:00</span>
       </div>
     </div>
 
@@ -99,7 +99,7 @@
           desenvolvendo sua musicalidade em aulas personalizadas para todos os níveis!</p>
 
           <div class="flex items-center gap-2 justify-between mt-3">
-            <p class="font-bold text-lg">10:00 as 11:00</p>
+            <p class="font-bold text-lg">16:00 as 17:00</p>
             <button type="button" 
               class="bg-gray-900 px-5 rounded add-to-cart-btn cursor-pointer"
               data-name="Aula de Bateria"
@@ -124,7 +124,7 @@
           desenvolvendo sua musicalidade em aulas personalizadas para todos os níveis!</p>
 
           <div class="flex items-center gap-2 justify-between mt-3">
-            <p class="font-bold text-lg">10:00 as 11:00</p>
+            <p class="font-bold text-lg">15:00 as 16:00</p>
             <button type="button" 
               class="bg-gray-900 px-5 rounded add-to-cart-btn cursor-pointer"
               data-name="Aula de Guitarra"
@@ -200,18 +200,17 @@
 
         <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
 
-        <p class="font-bold">Total: <span id="cart-total"></span>0.00</p>
 
-        <p class="font-bold mt-4">Endereço da aula</p>
+        <p class="font-bold mt-4">Digite seu nome completo</p>
 
         <input 
           type="text"
-          placeholder="Digite seu endereço completo..."
+          placeholder="Digite seu nome completo..."
           id="address"
           class="w-full border-2 p-1 rounded my-1"
         >
 
-        <p class="text-red-500 hidden" id="address-warn">Digite seu endereço completo</p>
+        <p class="text-red-500 hidden" id="address-warn">Digite seu nome completo</p>
 
         <div class="flex items-center justify-between mt-5 w-full">
           <button type="button" id="close-modal-btn" class="cursor-pointer">Fechar</button>
@@ -229,8 +228,7 @@
       id="cart-btn"
       >
         (<span id="cart-count">0</span>)
-        Agendamento de aula
-        <i class="fa fa-cart-plus text-lg text-white"></i>
+        Aulas agendadas
     </button>
    </footer>
   <!-- BUTTON CARD FOOTER -->
